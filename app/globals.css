@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.map{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.search{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 5vw;
+    background-color:#04cf58;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    border-radius: 10px;
+}
+button{
+    font-size: 1.3rem;
+    width: 2vw;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 20%;
+}
+.sug{
+    color: white;
+    position: absolute;
+    margin-left: 79.5vw;
+    margin-top: 0.5vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20vw;
+    background-color: #04cf58;
+    border-radius: 2%;
+    .section{
+        height: 7vw;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        border-radius: 2%;
+        h1{
+            font-size: large;
+            margin-top: 0.5vw;
+            margin-left: 0.5vw;
+        }
+        p{
+            font-size: small;
+            margin-left: 0.5vw;
+        }
+    }
+    .section:hover{
+        background-color: #02ff6b;
+    }
+}
+.rounded {
+    border-top: 2px solid white;
+    border-radius: 5px;
+    width: 80%;
+    align-self: center;
+}

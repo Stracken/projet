@@ -10,7 +10,7 @@ body {
 
 .map{
     position: fixed;
-    width:100vw;
+    width:100%;
     height: 100vh;
     z-index: 1;
 }
@@ -22,8 +22,8 @@ body {
     align-items: center;
     width: 20vw;
     height: 5vw;
-    background-color:#04cf58;
-    margin-top: 0.5vw;
+    background-color:#038D00;
+    margin-top: 5.5vw;
     margin-left: 0.5vw;
     border-radius: 10px;
 }
@@ -38,14 +38,14 @@ button{
 .sug{
     color: white;
     position: absolute;
-    margin-left: 79.5vw;
-    margin-top: 0.5vw;
+    margin-left: 78.5vw;
+    margin-top: 5.5vw;
     z-index: 2;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: auto;
     width: 20vw;
-    background-color: #04cf58;
+    background-color: #038D00;
     border-radius: 2%;
     .section{
         height: 7vw;
@@ -64,7 +64,7 @@ button{
         }
     }
     .section:hover{
-        background-color: #02ff6b;
+        background-color: #03b300;
     }
 }
 .rounded {
@@ -72,4 +72,67 @@ button{
     border-radius: 5px;
     width: 80%;
     align-self: center;
+}
+.roundedgray {
+    border-top: 2px solid #B1B1B1;
+    border-radius: 5px;
+    width: 95%;
+    align-self: center;
+    margin-top: 3%;
+}
+.head{
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #026900;
+    width: 100%;
+    height: 5vw;
+    position: fixed;
+    z-index:  3;
+    justify-content: space-between;
+    
+    h1{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .cate{
+        display: flex;
+        width: 7vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        justify-content: space-between;
+    }
+}
+.main{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-top-left-radius:3vw;
+    border-top-right-radius: 3vw;
+    z-index: 2;
+    margin-top: 50%;
+    .img{
+        margin-top: 1%;
+    }
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    h1{
+        font-size: x-large;
+        font-weight: bold;
+        margin-bottom: 1vw;
+    }
+    .prop{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 }

@@ -4,6 +4,7 @@ import Head from "@/componets/Head/head";
 import Foot from "@/componets/Footer/foot";
 import React, { useState } from "react"
 import Image from "next/image";
+import  Link from 'next/link'
 
 export default function Home() {
   var [search,  setSearch] = React.useState("");
@@ -41,7 +42,7 @@ export default function Home() {
         <Map/>
         <div className="search">
           <input id="place" type="text" placeholder="Search..." />
-          <Image onClick={() => research()} src="/search.png" alt="Home Image" width={30}  height={45} />
+          <Link href="/producteur"><Image onClick={() => research()} src="/search.png" alt="Home Image" width={30}  height={45} /></Link>
         </div>
         <div className="sug">
           <div className="section">
@@ -73,9 +74,9 @@ export default function Home() {
           <Image className="img" src="/menu.png" alt="Home Image" width={50}  height={45} />
           <div className="roundedgray"></div>
           <div className="container">
-            <button onClick={()=> back()}>←</button>
+            <button onClick={()=> back()}>◄</button>
             <Image src={name} alt="carousel" width={500} height={50} />
-            <button onClick={() => next()}>→</button>
+            <button onClick={() => next()}>►</button>
           </div>
           <div className="roundedgray"></div>
           <div className="article">

@@ -275,5 +275,60 @@ body {
         height: auto;
         border-radius: 2vw;
     }
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    h1{
+        font-size: 1vw;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    h2{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+    }
+    .tab{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .roundedgray {
+        border-top: 1.5px solid #B1B1B1;
+        border-radius: 5px;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
 }
 
+.AddToCard{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    h1{
+        width: 60%;
+        background-color: white;
+    }
+    img{
+        background-color: #038D00;
+        border-radius: 10%;
+    }
+    .addQ{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

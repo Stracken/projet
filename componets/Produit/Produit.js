@@ -1,4 +1,5 @@
 import Image from "next/image"
+import AddToCard from "../AddToCard/AddToCard"
 
 function Produit() {
 
@@ -19,6 +20,26 @@ function Produit() {
                         L'arôme puissant et capiteux qui s'en dégage éveille instantanément les papilles gustatives.</p>
                     </div>
                 </div>
+            </div>
+            <div className="details">
+                <div className="text">
+                    <h1>Détails</h1>
+                    <div className="tab">
+                        <h2>Prix au kg</h2>
+                        <h2>??€/kg</h2>
+                    </div>
+                    <div className="roundedgray"/>
+                    <div className="tab">
+                        <h2>Viande</h2>
+                        <h2>Boeuf</h2>
+                    </div>
+                    <div className="roundedgray"/>
+                    <div className="tab">
+                        <h2>Race</h2>
+                        <h2>Charolaise</h2>
+                    </div>
+                </div>
+                <AddToCard/>
             </div>
         </div>
     )

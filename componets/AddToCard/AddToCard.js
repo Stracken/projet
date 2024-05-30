@@ -13,6 +13,7 @@ function AddToCard() {
     function add(){
         setQ(Q + 0.1);
     }
+    
     return (
         <div className="AddToCard">
             <div className="addQ">

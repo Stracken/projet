@@ -162,6 +162,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
+    width: 100%;
 }
 
 .Mapcard{
@@ -331,4 +332,11 @@ body {
         align-items: center;
         justify-content: center;
     }
+}
+
+.panier{
+    display: flex;
+    width: 90%;
+    height: auto;
+    min-height: 20%
 }

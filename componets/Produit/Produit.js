@@ -9,7 +9,7 @@ function Produit() {
                 <h1>Pièce de boeuf</h1>
                 <div className="roundedblack"/>
                 <div className="block">
-                    <Image src="/boeuf.jpg" alt="product" width={100} height={45}/>
+                    <Image src="/boeuf.jpg" alt="product" width={200} height={50}/>
                     <div className="roundedv"/>
                     <div className="text">
                         <h1>Description</h1>

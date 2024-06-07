@@ -2,7 +2,12 @@ function Foot() {
     
     return (
         <>
-        <div className="footer">Le footer</div>
+        <div className="footer">
+            <h1>Le footer</h1>
+            <h1>Le footer</h1>
+            <h1>Le footer</h1>
+            <h1>Le footer</h1>
+        </div>
         </>
     );
 }

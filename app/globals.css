@@ -77,7 +77,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    background-color: #026900;
+    background-color: #038D00;
     width: 100%;
     height: 8%;
     position: fixed;
@@ -96,12 +96,16 @@ body {
         justify-content: space-between;
     }
     img:hover{
-        background-color: #058802;
+        background-color: rgb(3, 194, 0);
         border-radius: 25%;
     }
 }
 .footer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
     width: 100%;
     height: 15vw;
     background-color: rgb(46, 45, 45);
@@ -333,10 +337,96 @@ body {
         justify-content: center;
     }
 }
+.mod{
+    display: flex;
+    width: 8vw;
+    justify-content: center;
+    h1{
+        width: 60%;
+        background-color: white;
+    }
+    img{
+        background-color: #038D00;
+        border-radius: 10%;
+    }
+    .addQ{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.delete{
+    img{
+        background-color: #8D0000;
+        border-radius: 10%;
+    }
+    img:hover{
+        background-color: #a00000;
+    }
+}
 
 .panier{
     display: flex;
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
+    min-height: 30vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    h1{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    h2{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .achat{
+        width: 95%;
+        min-height: 30vw;
+        display: flex;
+        background-color: #F0F0F0;
+        border-radius: 2vw;
+    }
+    .description{
+        display: flex;
+        align-items: baseline;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 60%;
+        h1{
+            font-size: x-large;
+        }
+    }
+    .produit_panier{
+        display: flex;
+        width: 100%;
+        height: 10vw;
+        margin-top: 2%;
+    }
+    .wham{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .d{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.remplissage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 100%;
     height: auto;
-    min-height: 20%
+    min-height: 100%;
+    justify-content: center;
 }
